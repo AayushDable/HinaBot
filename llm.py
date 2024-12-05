@@ -91,9 +91,3 @@ def talk_to_llm(system_prompt, prompt, tts_model, conversation_history=None):
    
 
     return full_response
-
-# from prompts import sp_youtube,sp_general
-# from speech_synthesize import load_tts_model
-# model = load_tts_model()
-# prompt = {"system":"","user":"Hey hina, how are you doing? tell me something about yourself"}
-# print(talk_to_llm(sp_general, prompt, model, conversation_history=None))
